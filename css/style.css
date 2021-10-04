@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../fundo_branco.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat:repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /*background-color: #ECF4FF;*/
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #ecf0f3;
+    padding: 64px;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.671);
+    
+}
+.conquistas{
+    position: relative;
+    background: linear-gradient(230.65deg, #3ca6e4 27.49%, #0abcf1 83.19%);
+    margin-top: 40px;
+    
+    left: 20px;
+    padding: 64px;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px 0px rgba(224, 220, 220, 0.486);   
+}
+.conquistas li img{
+    width: 100px;
+    height: 100px;
+    
+
+}
+.alinha_imagens{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.tema button{
+ align-self: flex-end;
+ font-size: 20px;
+ font-weight: 400;
+ padding: 8px 16px;   
+ border-radius: 100px;
+ cursor: pointer;
+ background: #ECF4FF;
+
+}
+a{
+    text-decoration: none;
+}
+.tema button:hover{
+    background: #333439;
+    color: white;
+}
+.linha{
+    background: rgba(241, 235, 235, 0.849);
+    width: 100%;
+    margin: 0 auto;
+    opacity: 60%;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 3px;
+}
+
+.cabecalho{
+    display: flex;
+    /*Espaço entre os elementos do cabeçalho*/
+    justify-content: space-between;
+}
+.perfil{
+    display: flex;
+    
+}
+.perfil img{
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+}
+.titulo {
+    margin-left: 15px;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.teste{
+    display: flex;
+    
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #3ca6e4 27.49%, #0abcf1 83.19%);
+    margin-top: 40px;
+    width: 1200px;
+    max-height: 100%;
+    padding: 64px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 6px 0px rgba(224, 220, 220, 0.486);
+    
+}
+ul{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 60px;
+    list-style: none;
+    color: #fdfafa;;
+    
+    text-align: center;    
+}
+
+
+p{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42px;
+    
+    
+}
+li {
+    list-style-type: none;
+    margin-top: 10px;
+    
+
+}
+i{
+    margin-right: 10px;
+    color: rgb(255, 230, 0);
+}
+.dark {
+    background: linear-gradient(236.85deg, #000000 27.26%, #212122 96.03%);
+    background-image: url("../fundo_dark.jpg");    
+    background-repeat:repeat;
+    background-size: 100%;
+
+}
+
+.dark .container{
+    background: #35353ab9;
+    color: #f6f6f6;
+    box-shadow: 6px 6px 6px #151616;
+    ;
+}
+.dark .projetos ul{
+    color: #e7dede;
+}
+
+.dark .conquistas{
+    background: linear-gradient(230.65deg, #575655 27.49%, #c5c3c0 83.19%);
+}
+.dark .tema button{
+    background: #1C1C1C;
+    color: #ffff;
+    border: 2px solid #f7f7f7; 
+}
+.dark .tema button:hover{
+    background: #0c8bd4;
+}
+.dark .projetos{
+    background: linear-gradient(230.65deg, #575655 27.49%, #c5c3c0 83.19%);
+}
